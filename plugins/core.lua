@@ -3,8 +3,12 @@ return {
   {
     "goolord/alpha-nvim",
     opts = function(_, opts)
-      -- customize the dashboard header
-      opts.section.header.val = { "" }
+      opts.section.header.val = {
+        "         @laurci",
+        "",
+        "https://github.com/laurci",
+        "https://blog.ciobanu.dev/",
+      }
       return opts
     end,
   },
